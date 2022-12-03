@@ -1,0 +1,468 @@
+body{
+    user-select: none;
+    transition: .5s;
+}
+
+.container{
+    height: 60px;
+    width: 300px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-image: linear-gradient(to right,#c1f1be,#7cdd7f);
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+
+.sun{
+    height: 50px;
+    width: 50px;
+    background-image:linear-gradient(rgb(234, 255, 0),rgba(234, 255, 0, 0.496));
+    border-radius: 50%;
+    margin: 0px 5px;
+    position: absolute;
+    box-shadow:0px 0px 20px 20px rgba(247, 247, 167, 0.463); 
+    transition: 1.3s;
+}
+
+
+.day_mountain >div{
+    height: 75px;
+    width: 80px;
+    position: relative;
+    left: 100px;
+    transform: rotate(-135deg);
+    border-radius: 5px;
+
+}
+
+.day_mountain>.m1{
+    background-color: green;
+    top: 115px;
+    left: 170px;
+    z-index: 2;
+    transition: 1.2s;
+
+}
+
+.day_mountain>.m2{
+    background-color: rgb(48, 91, 48);
+    top: 60px;
+    left:230px;
+    z-index: 1;
+    transition: 1s;
+}
+
+.day_mountain>.m3{
+    background-color: rgb(55, 169, 55);
+    top: -30px;
+    left:200px;
+    transition: 2s;
+}
+
+
+  /* NIGHT */
+
+
+  .night{
+    background-image: linear-gradient(#18353a, #305960);
+  }
+
+
+  .moon{
+    margin-left: 245px;
+    background-image: linear-gradient(rgb(201, 201, 201),rgb(201, 201, 201));
+    box-shadow: 0px 0px 100px 50px rgba(207, 207, 207, 0.512);
+    transition: 1.3s;
+
+
+  }
+  .night_mountain >.m1{
+    background-color: rgb(182, 182, 182);
+    top: 115px;
+    left:65px;
+    z-index: 2;
+    transition: 1.2s;
+
+}
+
+
+.night_mountain >.m2{
+    background-color: rgb(119, 138, 137);
+    top: 60px;
+    left:0px;
+    z-index: 1;
+    transition: 1s;
+
+}
+
+
+.night_mountain >.m3{
+    background-color: rgb(97, 97, 97);
+    top: -30px;
+    left:35px;
+    transition: 2s;
+
+}
+
+
+
+         /* Bird */
+
+
+
+
+
+         .bird > .bird1 {
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            right: 50%;
+            top: 14px;
+            transition: 1s;
+          }
+          
+          .bird > .bird1 > .b1 {
+            width: 1.5px;
+            height: 5px;
+            position: absolute;
+            background-color: rgb(22, 94, 0);
+            transform: rotate(25deg);
+            border-radius: 3px;
+            left: 3.5px;
+            transition: 1s;
+          
+          }
+          .bird > .bird1 > .b2 {
+            width: 1.5px;
+            height: 5px;
+            position: absolute;
+            background-color: rgb(22, 94, 0);
+            transform: rotate(145deg);
+            border-radius: 3px;
+            left: 2px;
+            transition: 1s;
+          
+          }
+          
+          
+          
+          .bird > .bird2 {
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            right: 40%;
+            top: 7px;
+            transition: 1s;
+          
+          }
+          .bird > .bird2 > .b1 {
+            width: 1px;
+            height: 4px;
+            position: absolute;
+            background-color: rgb(22, 94, 0);
+            transform: rotate(25deg);
+            border-radius: 3px;
+            left: 3.5px;
+            transition: 1s;
+          
+          }
+          .bird > .bird2 > .b2 {
+            width: 1px;
+            height: 4px;
+            position: absolute;
+            background-color: rgb(22, 94, 0);
+            transform: rotate(145deg);
+            border-radius: 3px;
+            left: 2px;
+            transition: 1s;
+          
+          }
+          
+          .bird > .bird3 {
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            right: 25%;
+            top: 5px;
+            transition: 1s;
+          
+          }
+          
+          .bird > .bird3 > .b1 {
+            width: 1px;
+            height: 4px;
+            position: absolute;
+            background-color: rgb(0, 94, 31);
+            transform: rotate(25deg);
+            border-radius: 3px;
+            left: 3.5px;
+            transition: 1s;
+          
+          }
+          .bird > .bird3 > .b2 {
+            width: 1px;
+            height: 4px;
+            position: absolute;
+            background-color: rgb(22, 94, 0);
+            transform: rotate(145deg);
+            border-radius: 3px;
+            left: 2px;
+            transition: 1s;
+          
+          }
+          
+          .bird > .bird4 {
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            right: 30%;
+            top: 3px;
+            transition: 1s;
+          
+          }
+          
+          .bird > .bird4 > .b1 {
+            width: 1px;
+            height: 4px;
+            position: absolute;
+            background-color: rgb(0, 94, 36);
+            transform: rotate(25deg);
+            border-radius: 3px;
+            left: 3.5px;
+            transition: 1s;
+          
+          }
+          .bird > .bird4 > .b2 {
+            width: 1px;
+            height: 4px;
+            position: absolute;
+            background-color: rgb(22, 94, 0);
+            transform: rotate(145deg);
+            border-radius: 3px;
+            left: 2px;
+            transition: 1s;
+          
+          }
+          
+          .bird5 {
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            right: 35%;
+            top: 11px;
+            transition: 1s;
+          
+          }
+          .bird > .bird5 > .b1 {
+            width: 1px;
+            height: 4px;
+            position: absolute;
+            background-color: rgb(11, 94, 0);
+            transform: rotate(25deg);
+            border-radius: 3px;
+            left: 3.5px;
+            transition: 1s;
+          
+          }
+          .bird > .bird5 > .b2 {
+            width: 1px;
+            height: 4px;
+            position: absolute;
+            background-color: rgb(22, 94, 0);
+            transform: rotate(145deg);
+            border-radius: 3px;
+            left: 2px;
+            transition: 1s;
+          
+          }
+          
+          
+          /*
+          
+          ------------------         STAR
+          
+          */
+          
+          
+        
+          
+          
+          .star > .star1 {
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            right: 80%;
+            top: 10px;
+            transition: 1s;
+            animation:blink1 5s infinite;
+          
+          
+          }
+        
+        
+          
+          .star > .star1 > .b1 {
+            width: 1px;
+            height: 4px;
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.315);
+            transform: rotate(46deg);
+            border-radius: 46px;
+            left: 1.5px;
+            transition: 1s;
+          
+          }
+          .star > .star1 > .b2 {
+            width: 1px;
+            height: 4px;
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.356);
+            transform: rotate(145deg);
+            border-radius: 3px;
+            left: 1px;
+            transition: 1s;
+          
+          }
+          
+          
+          .star > .star2 {
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            right: 70%;
+            top: 3px;
+            transition: 1s;
+          
+          }
+          
+          
+          
+          
+          .star > .star2 > .b1 {
+            width: 1px;
+            height: 4px;
+            position: absolute;
+            background-color: rgb(240, 240, 240);
+            transform: rotate(46deg);
+            border-radius: 3px;
+            left: 1px;
+            transition: 1s;
+          
+          }
+          .star > .star2 > .b2 {
+            width: 1px;
+            height: 4px;
+            position: absolute;
+            background-color: rgb(240, 240, 240);
+            transform: rotate(145deg);
+            border-radius: 3px;
+            left: 1px;
+            transition: 1s;
+          
+          }
+          
+          .star > .star3 {
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            right:60%;
+            top: 5px;
+            transition: 2s;
+            animation:blink2 10s infinite;
+          }
+        
+          
+          .star > .star3 > .b1 {
+            width: 1px;
+            height: 4px;
+            position: absolute;
+            background-color: rgba(206, 206, 206, 0.466);
+            transform: rotate(46deg);
+            border-radius: 3px;
+            left: 1px;
+            transition: 1s;
+          
+          }
+          .star > .star3 > .b2 {
+            width: 1px;
+            height: 4px;
+            position: absolute;
+            background-color: rgba(224, 224, 224, 0.534);
+            transform: rotate(145deg);
+            border-radius: 3px;
+            left: 1px;
+            transition: 1s;
+          
+          }
+          
+          .star > .star4 {
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            right: 55%;
+            top: 1px;
+            transition: 1s;
+          
+          }
+          
+          .star > .star4 > .b1 {
+            width: 1px;
+            height: 3px;
+            position: absolute;
+            background-color: rgb(251, 255, 253);
+            transform: rotate(46deg);
+            border-radius: 3px;
+            left: 1px;
+            transition: 1s;
+          
+          }
+          .star > .star4 > .b2 {
+            width: 1px;
+            height: 3px;
+            position: absolute;
+            background-color: rgb(252, 255, 251);
+            transform: rotate(145deg);
+            border-radius: 3px;
+            left: 1px;
+            transition: 1s;
+          
+          }
+          
+          .star >  .star5 {
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            right: 75%;
+            top: 11px;
+            transition: 1s;
+          
+          }
+          .star > .star5 > .b1 {
+            width: 1px;
+            height: 4px;
+            position: absolute;
+            background-color: rgb(212, 212, 212);
+            transform: rotate(46deg);
+            border-radius: 3px;
+            left: 1px;
+            transition: 1s;
+          
+          }
+          .star > .star5 > .b2 {
+            width: 1px;
+            height: 4px;
+            position: absolute;
+            background-color: rgb(214, 214, 214);
+            transform: rotate(145deg);
+            border-radius: 3px;
+            left: 1px;
+            transition: 1s;
+          
+          }
